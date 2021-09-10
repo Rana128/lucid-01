@@ -1,0 +1,111 @@
+
+
+
+@media(max-width:575px) and (min-width:320px){
+    .navbar-light .nav-item .nav-link {
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .nav-link{
+        margin-bottom: 15px;
+    }
+    .phone_bg {
+        display: none;
+    }
+    .phone_text h1 {
+        font-size: 26px;
+    }
+    .phone_text{
+        text-align: center;
+    }
+    .phone_text h5 {
+        font-size: 14px;
+    }
+    .client_img{
+        margin-right: 20px;
+    }
+    .button h1{
+        font-size: 27px;
+    }
+    .contact_form {
+        width: 86%;
+    }
+    .contact_form form input[type="submit"] {
+        font-size: 15px;
+        padding: 7px 12px;
+    }
+    .btn_download {
+        margin-right: 10px;
+        margin-bottom: 10px;
+       
+    }
+    .download{
+        margin-left: 12px;
+        margin-top: 0px;
+    }
+    .phone_text p {
+        font-size: 14px;
+    }
+    .view {
+       margin-bottom: 15px;
+       margin-left: 12px;
+    }
+    .features_part h1 {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 768px) and (min-width: 576px){
+    .btn_view {
+        margin: 20px 0;
+    }
+    .phone_text h1 {
+        font-size: 36px;
+    }
+    .phone_text h5 {
+        font-size: 13px;
+    }
+    .button h1{
+        margin: 40px 0;
+    }
+    .contact_form {
+        width: 88%;
+    }
+
+}
+@media(max-width: 991px) and (min-width:768px){
+    .phone_text h1 {
+        font-size: 40px;
+    }
+    .btn_download {
+        margin-bottom: 18px;
+    }
+    .download{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .contact_form {
+        width: 90%;
+    }
+}
+@media(max-width: 1200px) and (min-width:991px){
+    .download {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .contact_form{
+        width: 90%;
+    }
+    .btn_download {
+        margin-bottom: 3px;
+    }
+}
+@media(max-width: 1440px) and (min-width:1200px){
+    .download {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+}
